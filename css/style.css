@@ -85,10 +85,19 @@
     color: #CC4D28;
   }
   a:visited {
-    color: #db6c36;
+    color: #8CBCD8;
   }
   a:active, a:hover {
     color: #ED3F0D;
+  }
+
+  a.button {
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 0.75em;
+    border-radius: 3px;
+    border-radius: 3px;
+    border-radius: 3px;
   }
 
   h1 {
@@ -180,6 +189,7 @@
   #site-title a {
     padding: 0.5625em 0;
     display: block;
+    color: #EDC86A;
   }
   #site-title img {
     height: 2.25em;
@@ -196,7 +206,7 @@
   #mobile-nav a {
     display: inline-block;
     font-size: 24px;
-    background-color: #21c900;
+    background-color: #EDC86A;
     color: #fff;
     height: 1.5em;
     padding: 0 6px;
@@ -228,6 +238,7 @@
     width: 100%;
     background-color: #fff;
   }
+
   #search-form input[type=text], #search-form input[type=submit] {
     border-radius: 0;
     border-radius: 0;
@@ -238,13 +249,27 @@
     padding: 0.375em 1.40845%;
     font-size: 16px;
   }
+  #search-form button {
+    border-radius: 0;
+    border-radius: 0;
+    border-radius: 0;
+    height: 2.25em;
+    margin: 0;
+    float: left;
+    padding: 0.375em 1.40845%;
+    font-size: 16px;
+    width: 35%;
+    background-color: #EDC86A;
+    color: #fff;
+    border: 0;
+  }
   #search-form input[type=text] {
     width: 65%;
     border: 1px solid #e7e7e7;
   }
   #search-form input[type=submit] {
     width: 35%;
-    background-color: #21c900;
+    background-color: #EDC86A;
     color: #fff;
     border: 0;
   }
@@ -383,59 +408,59 @@
   }
 
   .home #navigation li:nth-of-type(4) {
-    background: url("../images/events.jpg") no-repeat center;
+    background: url("../images/rome3.jpg") no-repeat center;
     background-size: cover;
     background-size: cover;
     background-size: cover;
     background-size: cover;
   }
   .home #navigation li:nth-of-type(4):after {
-    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(33, 201, 0, 0.4));
-    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(33, 201, 0, 0.4));
-    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(33, 201, 0, 0.4));
-    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(33, 201, 0, 0.4));
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(224, 251, 252, 0.4));
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(224, 251, 252, 0.4));
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(224, 251, 252, 0.4));
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(224, 251, 252, 0.4));
   }
 
   .home #navigation li:nth-of-type(3) {
-    background: url("../images/people.jpg") no-repeat top;
+    background: url("../images/rome2.jpg") no-repeat top;
     background-size: cover;
     background-size: cover;
     background-size: cover;
     background-size: cover;
   }
   .home #navigation li:nth-of-type(3):after {
-    background-image: linear-gradient(255deg, rgba(0, 0, 0, 0.8), rgba(43, 137, 217, 0.4));
-    background-image: linear-gradient(255deg, rgba(0, 0, 0, 0.8), rgba(43, 137, 217, 0.4));
-    background-image: linear-gradient(255deg, rgba(0, 0, 0, 0.8), rgba(43, 137, 217, 0.4));
-    background-image: linear-gradient(255deg, rgba(0, 0, 0, 0.8), rgba(43, 137, 217, 0.4));
+    background-image: linear-gradient(255deg, rgba(0, 0, 0, 0.8), rgba(140, 188, 216, 0.4));
+    background-image: linear-gradient(255deg, rgba(0, 0, 0, 0.8), rgba(140, 188, 216, 0.4));
+    background-image: linear-gradient(255deg, rgba(0, 0, 0, 0.8), rgba(140, 188, 216, 0.4));
+    background-image: linear-gradient(255deg, rgba(0, 0, 0, 0.8), rgba(140, 188, 216, 0.4));
   }
 
   .home #navigation li:first-of-type {
-    background: url("../images/map.png") no-repeat center center;
+    background: url("../images/rome4.png") no-repeat center center;
     background-size: cover;
     background-size: cover;
     background-size: cover;
     background-size: cover;
   }
   .home #navigation li:first-of-type:after {
-    background-image: linear-gradient(195deg, rgba(0, 0, 0, 0.8), rgba(217, 196, 20, 0.4));
-    background-image: linear-gradient(195deg, rgba(0, 0, 0, 0.8), rgba(217, 196, 20, 0.4));
-    background-image: linear-gradient(195deg, rgba(0, 0, 0, 0.8), rgba(217, 196, 20, 0.4));
-    background-image: linear-gradient(195deg, rgba(0, 0, 0, 0.8), rgba(217, 196, 20, 0.4));
+    background-image: linear-gradient(195deg, rgba(0, 0, 0, 0.8), rgba(237, 200, 106, 0.4));
+    background-image: linear-gradient(195deg, rgba(0, 0, 0, 0.8), rgba(237, 200, 106, 0.4));
+    background-image: linear-gradient(195deg, rgba(0, 0, 0, 0.8), rgba(237, 200, 106, 0.4));
+    background-image: linear-gradient(195deg, rgba(0, 0, 0, 0.8), rgba(237, 200, 106, 0.4));
   }
 
   .home #navigation li:nth-of-type(2) {
-    background: url("../images/discover.jpg") no-repeat center center;
+    background: url("../images/rome.jpg") no-repeat center center;
     background-size: cover;
     background-size: cover;
     background-size: cover;
     background-size: cover;
   }
   .home #navigation li:nth-of-type(2):after {
-    background-image: linear-gradient(15deg, rgba(0, 0, 0, 0.8), rgba(255, 51, 0, 0.4));
-    background-image: linear-gradient(15deg, rgba(0, 0, 0, 0.8), rgba(255, 51, 0, 0.4));
-    background-image: linear-gradient(15deg, rgba(0, 0, 0, 0.8), rgba(255, 51, 0, 0.4));
-    background-image: linear-gradient(15deg, rgba(0, 0, 0, 0.8), rgba(255, 51, 0, 0.4));
+    background-image: linear-gradient(15deg, rgba(0, 0, 0, 0.8), rgba(66, 99, 147, 0.4));
+    background-image: linear-gradient(15deg, rgba(0, 0, 0, 0.8), rgba(66, 99, 147, 0.4));
+    background-image: linear-gradient(15deg, rgba(0, 0, 0, 0.8), rgba(66, 99, 147, 0.4));
+    background-image: linear-gradient(15deg, rgba(0, 0, 0, 0.8), rgba(66, 99, 147, 0.4));
   }
 
   .home .news-item {
@@ -525,7 +550,7 @@
   }
   .featured .button {
     display: inline-block;
-    background-color: #db6c36;
+    background-color: #8CBCD8;
     text-shadow: none;
   }
   .featured * {
@@ -624,7 +649,7 @@
     font-size: 24px;
     line-height: 24px;
     display: block;
-    background-color: #db6c36;
+    background-color: #8CBCD8;
     color: #fff;
     text-align: center;
   }
@@ -688,7 +713,7 @@
     text-align: center;
   }
   .pagination a {
-    color: #db6c36;
+    color: #8CBCD8;
     display: inline;
     padding: 5px 10px;
     line-height: 3em;
@@ -865,13 +890,13 @@
     text-shadow: 0 0 60px #000, 0 0 60px #000;
   }
   .explorations .question.color-2 a {
-    text-shadow: 0 0 60px #db6c36;
+    text-shadow: 0 0 60px #8CBCD8;
   }
   .explorations .question.color-3 a {
     text-shadow: 0 0 60px #2b89d9;
   }
   .explorations .question.color-4 a {
-    text-shadow: 0 0 60px #083000;
+    text-shadow: 0 0 60px #3D5A80;
   }
   .explorations .question.color-5 a {
     text-shadow: 0 0 60px #edd400;
@@ -1134,7 +1159,7 @@
     font-variant: normal;
     text-transform: none;
     -webkit-font-smoothing: antialiased;
-    color: #db6c36;
+    color: #8CBCD8;
   }
   .item-collapsed.open:after {
     content: "\e007";
@@ -1380,7 +1405,7 @@
     height: 2.25em;
     line-height: 30px;
     padding: 0 2.85714%;
-    color: #db6c36;
+    color: #8CBCD8;
     width: 150px;
     border: solid #e7e7e7;
     border-width: 1px 1px 0 1px;
@@ -1391,7 +1416,7 @@
     width: 0;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 6px solid #db6c36;
+    border-top: 6px solid #8CBCD8;
     position: absolute;
     top: 13px;
     right: 10px;
@@ -1695,11 +1720,11 @@
     -moz-box-shadow: 0 0 50px rgba(0, 128, 0, 0.18);
     -webkit-box-shadow: 0 0 50px rgba(0, 128, 0, 0.18);
     box-shadow: 0 0 50px rgba(0, 128, 0, 0.18);
-    border-top: 5px solid #DB6C36;
+    border-top: 5px solid #8CBCD8;
   }
 
   #site-title {
-    font-size: 0.875em;
+    font-size: 1em;
     line-height: 1.71429em;
     float: none;
   }
@@ -1781,10 +1806,10 @@
   }
 
   .home #site-title {
-    font-size: 0.875em;
+    font-size: 2em;
     line-height: 1.71429em;
     float: none;
-    padding: 3em 0;
+    padding: 0em 0;
   }
   .home #site-title img {
     height: 7.5em;
@@ -1825,6 +1850,7 @@
   }
 
   .home #search-form {
+    display: block;
     position: relative;
     width: 100%;
     border-left: 0;
@@ -1841,13 +1867,20 @@
     padding: 0.375em 1.40845%;
     font-size: 16px;
   }
+  .home #search-form button {
+    height: 2.25em;
+    margin: 0.75em 0;
+    float: left;
+    padding: 0.375em 1.40845%;
+    font-size: 16px;
+  }
   .home #search-form input[type=text] {
     width: 65%;
     border: 0;
   }
   .home #search-form input[type=submit] {
     width: 35%;
-    background-color: #21c900;
+    background-color: #EDC86A;
     color: #f7f7f7;
     border: 0;
   }
