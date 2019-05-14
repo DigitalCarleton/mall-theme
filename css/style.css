@@ -1700,7 +1700,7 @@
     width: 100%;
   }
   div[role=main] > h1:first-of-type {
-    padding: 4.5em 2.85714%;
+    padding: 0.375em 2.85714%;
     text-align: center;
   }
 
