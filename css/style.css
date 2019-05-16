@@ -220,7 +220,7 @@
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 50em) {
   #mobile-nav {
     display: none;
   }
@@ -984,7 +984,7 @@
     display: block;
   }
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 50em) {
   .right {
     float: right;
     width: 35%;
@@ -1673,7 +1673,7 @@
     width: 40%;
   }
 }
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 50em) {
   /* @group ----- Generic HTML elements ----- */
   body {
     *zoom: 1;
