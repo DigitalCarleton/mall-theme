@@ -1964,13 +1964,8 @@
     width: 240px;
     height: 120px;
     margin-bottom: 20px;
-    float: left;
   }
-  
-  .explorations .grid-sizer,
-  .question {
-    width: 30%;
-  }
+
   .exploration-answer div[role=main] h2 {
     padding: 0;
   }
