@@ -36,7 +36,8 @@ var $container = jQuery('.questions');
 $container.masonry({
   itemSelector: '.question',
   gutter: 20,
-  isFitWidth: true
+  isFitWidth: true,
+  columnWidth: '.grid-sizer'
 });
 </script>
 
