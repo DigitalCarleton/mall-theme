@@ -1965,7 +1965,11 @@
     height: 120px;
     margin-bottom: 20px;
   }
-
+  
+  .explorations .grid-sizer,
+  .question {
+    width: 30%;
+  }
   .exploration-answer div[role=main] h2 {
     padding: 0;
   }
