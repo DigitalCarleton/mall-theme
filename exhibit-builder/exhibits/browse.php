@@ -35,9 +35,7 @@ var $container = jQuery('.questions');
 // initialize
 $container.masonry({
   itemSelector: '.question',
-  gutter: 20,
-  columnWidth: '.grid-sizer',
-  percentPosition: true
+  gutter: 30,
 });
 </script>
 
