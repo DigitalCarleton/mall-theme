@@ -45,9 +45,6 @@
         <?php echo search_form(); ?>
         
         <nav id="navigation" data-role="none">
-            <?php if(@$bodyclass == 'home'): ?>
-            <h1>Discover</h1>
-            <?php endif; ?>
             <?php echo public_nav_main(); ?>
         </nav>    
     </header>
