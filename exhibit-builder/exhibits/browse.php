@@ -37,7 +37,8 @@ $container.masonry({
   itemSelector: '.question',
   gutter: 20,
   isFitWidth: true,
-  columnWidth: '.grid-sizer'
+  columnWidth: '.grid-sizer',
+  percentPosition: true
 });
 </script>
 
