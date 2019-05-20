@@ -33,7 +33,6 @@
       <?php endforeach; ?>
 
     <div class="pagination"><?php echo pagination_links(); ?></div>
-  <h1><?php echo __('Neatline abouve here'); ?></h1>
 
   <?php endif; ?>
 
