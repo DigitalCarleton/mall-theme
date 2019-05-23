@@ -1,41 +1,40 @@
 <?php
-
-/**
- * @package     omeka
- * @subpackage  neatline
- * @copyright   2014 Rector and Board of Visitors, University of Virginia
- * @license     http://www.apache.org/licenses/LICENSE-2.0.html
- */
-
+queue_js_file('jquery.masonry');
+$title = __('Historical Maps');
+echo head(array('title' => $title, 'bodyclass' => 'neatline'));
 ?>
 
-<?php echo head(array(
-  'title' => __('Historical Maps'),
-  'content_class' => 'neatline'
-)); ?>
+<div role="main">
 
-<div id="primary">
+<?php echo flash(); ?>
+<h1><?php echo $title; ?></h1>
 
-  <?php echo flash(); ?>
-  <h1><?php echo __('Historical Maps'); ?></h1>
+<?php echo pagination_links(); ?>
 
-  <?php if (nl_exhibitsHaveBeenCreated()): ?>
+<div class="neatline">
+  <?php foreach (loop('NeatlineExhibit') as $e): ?>
+          <h2>
+            <?php echo nl_getExhibitLink(
+              $e, 'show', nl_getExhibitField('title'),
+              array('class' => 'neatline'), true
+            );?>
+          </h2>
+        <?php endforeach; ?>
+</div>
 
-    <div class="pagination"><?php echo pagination_links(); ?></div>
-
-      <?php foreach (loop('NeatlineExhibit') as $e): ?>
-        <h2>
-          <?php echo nl_getExhibitLink(
-            $e, 'show', nl_getExhibitField('title'),
-            array('class' => 'neatline'), true
-          );?>
-        </h2>
-      <?php endforeach; ?>
-
-    <div class="pagination"><?php echo pagination_links(); ?></div>
-
-  <?php endif; ?>
+<?php echo pagination_links(); ?>
 
 </div>
 
+<script>
+var $container = jQuery('.neatline');
+// initialize
+$container.masonry({
+  itemSelector: '.neatline',
+  gutter: 20,
+  isFitWidth: true
+});
+</script>
+
 <?php echo foot(); ?>
+
