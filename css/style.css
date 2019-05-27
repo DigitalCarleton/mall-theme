@@ -358,7 +358,7 @@
   }
 
   #intro .button {
-    background-color: #2b89d9;
+    background-color: #8CBCD8;
     display: inline-block;
   }
 
@@ -807,7 +807,7 @@
 
   .explorations div[role=main] h1:first-of-type,
   .exploration-answer div[role=main] h1:first-of-type {
-    background-color: #2b89d9;
+    background-color: #8CBCD8;
     color: #fff;
   }
 
