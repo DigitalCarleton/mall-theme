@@ -808,6 +808,7 @@
   .explorations div[role=main] h1:first-of-type,
   .exploration-answer div[role=main] h1:first-of-type {
     background-color: #2b89d9;
+    color: #fff;
   }
 
   .exhibit-geolocation-map {
@@ -839,7 +840,7 @@
   }
   .explorations .question:nth-of-type(2n+1):after {
     /* Black */
-    background-image: rgba(237, 200, 106, 0.4);
+    background-image: rgba(237, 200, 106, 1.0);
   }
   .explorations .question:first-of-type:after, .explorations .question:nth-of-type(5n):after {
     /* Red */
@@ -855,13 +856,11 @@
   }
   .explorations .question:nth-of-type(4n):after {
     /* Green */
-    background-image: -webkit-linear-gradient(135deg, rgba(140, 188, 216, 0.4), rgba(140, 188, 216, 0.4));
-    background-image: -moz-linear-gradient(135deg, rgba(140, 188, 216, 0.4), rgba(140, 188, 216, 0.4));
-    background-image: linear-gradient(135deg, rgba(140, 188, 216, 0.4), rgba(140, 188, 216, 0.4));
+    background-image: rgba(140, 188, 216, 1.0);
   }
   .explorations .question:nth-of-type(3n):after {
     /* Yellow */
-    background-image: rgb(237,200,106)
+    background-image: rgba(237,200,106,1.0)
   }
   .explorations .question:after {
     content: "";
