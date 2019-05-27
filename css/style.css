@@ -1958,10 +1958,12 @@
   /* @group ----- Discover ----- */
   .explorations .questions {
     padding-top: 1.5em;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .explorations .question {
-    width: 240px;
+    width: 23.333%;
     height: 120px;
     margin-bottom: 20px;
   }
