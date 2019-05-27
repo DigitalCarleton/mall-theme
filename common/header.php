@@ -40,7 +40,7 @@
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
     <header>
-        <h1<?php echo $title ?></h1>
+        <h1 Carleton Guide to Medieval Rome </h1>
         
         <?php echo search_form(); ?>
         
