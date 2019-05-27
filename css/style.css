@@ -1676,9 +1676,6 @@
   /* @end */
   /* @group ----- Global classes ----- */
   div[role=main] {
-    -moz-box-shadow: #BBB 0 0 50px;
-    -webkit-box-shadow: #BBB 0 0 50px;
-    box-shadow: #BBB 0 0 50px;
     width: 100%;
   }
   div[role=main] > h1:first-of-type {
