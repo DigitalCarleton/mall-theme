@@ -883,21 +883,6 @@
     z-index: 10;
     color: #fff;
   }
-  .explorations .question.color-1 a {
-    text-shadow: 0 0 60px #000, 0 0 60px #000;
-  }
-  .explorations .question.color-2 a {
-    text-shadow: 0 0 60px #8CBCD8;
-  }
-  .explorations .question.color-3 a {
-    text-shadow: 0 0 60px #2b89d9;
-  }
-  .explorations .question.color-4 a {
-    text-shadow: 0 0 60px #3D5A80;
-  }
-  .explorations .question.color-5 a {
-    text-shadow: 0 0 60px #edd400;
-  }
 
   .exploration-answer div[role=main] {
     background: #fff;
