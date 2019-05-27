@@ -36,7 +36,7 @@ var $container = jQuery('.questions');
 $container.masonry({
   itemSelector: '.question',
   isFitWidth: true,
-  gutter: 10px
+  gutter: 10
 });
 </script>
 
