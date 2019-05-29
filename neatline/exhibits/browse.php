@@ -6,7 +6,6 @@ echo head(array('title' => $title, 'bodyclass' => 'explorations browse'));
 
 <div role="main">
 
-<?php echo flash(); ?>
 <h1><?php echo $title; ?></h1>
 
 <?php echo pagination_links(); ?>
