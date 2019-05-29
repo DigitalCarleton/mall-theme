@@ -11,7 +11,7 @@ echo head(array('title' => $title, 'bodyclass' => 'neatline'));
 
 <?php echo pagination_links(); ?>
 
-<div class="neatline">
+<div class="questions">
   <?php foreach (loop('NeatlineExhibit') as $e): ?>
           <h2>
             <?php echo nl_getExhibitLink(
