@@ -11,7 +11,7 @@ echo head(array('title' => $title, 'bodyclass' => 'neatline'));
 
 <?php echo pagination_links(); ?>
 
-<div class="questions">
+<div class="neatline">
   <?php foreach (loop('NeatlineExhibit') as $e): ?>
           <h2>
             <?php echo nl_getExhibitLink(
@@ -27,10 +27,10 @@ echo head(array('title' => $title, 'bodyclass' => 'neatline'));
 </div>
 
 <script>
-var $container = jQuery('.questions');
+var $container = jQuery('.neatline');
 // initialize
 $container.masonry({
-  itemSelector: '.questions',
+  itemSelector: '.neatline',
   gutter: 20,
   isFitWidth: true
 });
