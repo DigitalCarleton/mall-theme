@@ -30,7 +30,7 @@ echo head(array('title' => $title, 'bodyclass' => 'explorations browse'));
 var $container = jQuery('.questions');
 // initialize
 $container.masonry({
-  itemSelector: '.neatline',
+  itemSelector: '.question',
   gutter: 20,
   isFitWidth: true
 });
