@@ -1,7 +1,7 @@
 <?php
 queue_js_file('jquery.masonry');
 $title = __('Historical Maps');
-echo head(array('title' => $title, 'bodyclass' => 'neatline'));
+echo head(array('title' => $title, 'bodyclass' => 'explorations browse'));
 ?>
 
 <div role="main">
