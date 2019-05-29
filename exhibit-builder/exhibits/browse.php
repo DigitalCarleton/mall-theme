@@ -34,7 +34,7 @@ echo head(array('title' => $title, 'bodyclass' => 'explorations browse'));
 var $container = jQuery('.questions');
 // initialize
 $container.masonry({
-  itemSelector: '.questions',
+  itemSelector: '.question',
   gutter: 30,
   isFitWidth: true
 });
