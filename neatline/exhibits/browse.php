@@ -14,8 +14,7 @@ echo head(array('title' => $title, 'bodyclass' => 'explorations browse'));
 <div class="neatline">
   <?php foreach (loop('NeatlineExhibit') as $e): ?>
             
-          <div class="question color-<?php echo rand(1,5); ?>" <?php echo mall_exhibit_background($exhibit); ?>>
-            <?php $exhibitPages = get_records('ExhibitPage', array('exhibit' => $exhibit->id)); ?>
+          <div class="question color-<?php echo rand(1,5); ?>" >
             <p><?php echo nl_getExhibitLink($e, 'show', nl_getExhibitField('title'),
               array('class' => 'neatline'), true);?> ?></p>
           </div>
