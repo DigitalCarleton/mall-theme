@@ -10,16 +10,16 @@ echo head(array('title' => $title, 'bodyclass' => 'explorations browse'));
 <?php if (count($exhibits) > 0): ?>
 
 <?php echo pagination_links(); ?>
-
-<div class="questions">
-<?php $exhibitCount = 0; ?>
-<?php foreach (loop('exhibit') as $exhibit): ?>
-    <?php $exhibitCount++; ?>
-    <div class="question color-<?php echo rand(1,5); ?>" <?php echo mall_exhibit_background($exhibit); ?>>
-        <?php $exhibitPages = get_records('ExhibitPage', array('exhibit' => $exhibit->id)); ?>
-        <p><?php echo link_to_exhibit(); ?></p>
-    </div>
-<?php endforeach; ?>
+    
+<div class="neatline">
+  <?php foreach (loop('NeatlineExhibit') as $e): ?>
+          <h2>
+            <?php echo nl_getExhibitLink(
+              $e, 'show', nl_getExhibitField('title'),
+              array('class' => 'neatline'), true
+            );?>
+          </h2>
+        <?php endforeach; ?>
 </div>
 
 <?php echo pagination_links(); ?>
@@ -31,10 +31,10 @@ echo head(array('title' => $title, 'bodyclass' => 'explorations browse'));
 </div>
 
 <script>
-var $container = jQuery('.questions');
+var $container = jQuery('.neatline');
 // initialize
 $container.masonry({
-  itemSelector: '.question',
+  itemSelector: '.neatline',
   isFitWidth: true,
   gutter: 10
 });
