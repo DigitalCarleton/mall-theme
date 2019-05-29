@@ -12,11 +12,10 @@ echo head(array('title' => $title, 'bodyclass' => 'explorations browse'));
 <?php echo pagination_links(); ?>
 
 <div class="neatline">
-  <?php foreach (loop('NeatlineExhibit') as $e): ?>
-            
+  <?php foreach (loop('NeatlineExhibit') as $e): ?>            
           <div class="question color-<?php echo rand(1,5); ?>" >
             <p><?php echo nl_getExhibitLink($e, 'show', nl_getExhibitField('title'),
-              array('class' => 'neatline'), true);?> ?></p>
+              array('class' => 'neatline'), true); ?></p>
           </div>
         <?php endforeach; ?>
 </div>
@@ -30,7 +29,7 @@ var $container = jQuery('.questions');
 // initialize
 $container.masonry({
   itemSelector: '.question',
-  gutter: 20,
+  gutter: 30,
   isFitWidth: true
 });
 </script>
