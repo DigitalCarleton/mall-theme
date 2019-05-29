@@ -30,7 +30,7 @@ echo head(array('title' => $title, 'bodyclass' => 'neatline'));
 var $container = jQuery('.questions');
 // initialize
 $container.masonry({
-  itemSelector: '.question',
+  itemSelector: '.questions',
   gutter: 20,
   isFitWidth: true
 });
