@@ -7,14 +7,16 @@ function mall_exhibit_background($exhibit)
     }
     $exhibitId = $exhibit->id;
     $exhibitItem = get_records('Item', array('exhibit' => $exhibitId, 'random' => true, 'has files' => true), 1);
-    $exhibitImage = get_db()->getTable('File')->findWithImages($exhibitItem[0]->id, 0);
+    if (!empty($exhibitItem)) {
+        $exhibitImage = get_db()->getTable('File')->findWithImages($exhibitItem[0]->id, 0);
+    } else {
+        return;
+    }
     if ($exhibitImage) {
         $html = 'style="background-image:url(\'';
         $html .= file_display_url($exhibitImage, 'original');
         $html .= '\')"';
         return $html;
-    } else {
-        return;
     }
 }
 
