@@ -30,5 +30,4 @@ function mall_sort_events($firstPeriodItem, $secondPeriodItem) {
         return;
     }
 }
-// asjhdsah
 ?>
