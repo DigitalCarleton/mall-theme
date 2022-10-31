@@ -61,7 +61,7 @@
 <aside class="learn-more">
 
     <div class="other-questions">
-        <p class="back"><a href="<?php echo url('explorations'); ?>">Go back to all questions about the National Mall</a></p>
+        <p class="back"><a href="<?php echo url('exhibits'); ?>">Go back to all exhibits about the Medieval Rome</a></p>
         
     </div>
     
