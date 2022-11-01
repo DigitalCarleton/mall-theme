@@ -9,12 +9,12 @@
         </div>
         
         <?php $featuredExhibit = exhibit_builder_random_featured_exhibit(); ?>
+        <?php if (!is_null($featuredExhibit)): ?>
         <?php $featuredExhibitId = $featuredExhibit->id; ?>
         <?php $featuredExhibitItem = get_records('Item', array('exhibit' => $featuredExhibitId, 'random' => true, 'has files' => true), 1); ?>
-        <?php $featuredExhibitImage = get_db()->getTable('File')->findWithImages($featuredExhibitItem[0]->id, 0); ?>
-                
-        <div id="featured-question" class="featured" style="background-image:url('<?php echo file_display_url($featuredExhibitImage, 'original'); ?>')">
-            
+        <?php $featuredExhibitImage = empty($featuredExhibitItem) ? NULL : get_db()->getTable('File')->findWithImages($featuredExhibitItem[0]->id, 0); ?>
+
+        <div id="featured-question" class="featured" style="background-image:url('<?php echo (!is_null($featuredExhibitImage) ? file_display_url($featuredExhibitImage, 'original') : img('rome.jpg')); ?>')">
             <h1>
                 <span class="category">Featured Exploration</span>
                 <span class="title"><?php echo $featuredExhibit->title; ?></span>
@@ -22,6 +22,15 @@
             <p><?php echo snippet($featuredExhibit->description, 0, 200); ?></p>
             <p class="jump-link"><?php echo exhibit_builder_link_to_exhibit($featuredExhibit, 'Read More', array('class' => 'button')); ?></p>
         </div>
+        <?php else: ?>
+            <div id="featured-question" class="featured" style="background-image:url('<?php echo img('rome.jpg'); ?>')">
+            <h1>
+                <span class="category">Featured Exploration</span>
+                <span class="title">No featured exploreation</span>
+            </h1>
+            <p>You can add one in the admin page.</p>
+        </div>
+        <?php endif; ?>
         
         <?php 
         $featuredPeople = get_records('Item', array(
