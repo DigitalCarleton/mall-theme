@@ -199,6 +199,7 @@
     font-size: 1.125em;
     line-height: 1.33333em;
     color: #edc86a;
+    width: 70%;
   }
   #site-title a {
     padding: 0.5625em 0;
@@ -235,7 +236,7 @@
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 47em) {
+@media screen and (min-width: 60em) {
   #mobile-nav {
     display: none;
   }
@@ -1137,7 +1138,7 @@
     display: block;
   }
 }
-@media screen and (min-width: 47em) {
+@media screen and (min-width: 60em) {
   .right {
     float: right;
     width: 35%;
@@ -1830,7 +1831,8 @@
     width: 40%;
   }
 }
-@media screen and (min-width: 47em) {
+
+@media screen and (min-width: 60em) {
   /* @group ----- Generic HTML elements ----- */
   body {
     *zoom: 1;
@@ -1882,6 +1884,7 @@
     line-height: 1.71429em;
     float: none;
     color: #edc86a;
+    width: 100%;
   }
   #site-title img {
     height: 7.5em;
