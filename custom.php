@@ -30,4 +30,14 @@ function mall_sort_events($firstPeriodItem, $secondPeriodItem) {
         return;
     }
 }
+
+function default_index_bg()
+{
+    $headerImage = get_theme_option('index_background_image');
+    if ($headerImage) {
+        $storage = Zend_Registry::get('storage');
+        $headerImage = $storage->getUri($storage->getPathByType($headerImage, 'theme_uploads'));
+        return $headerImage;
+    }
+}
 ?>

@@ -7,14 +7,20 @@
             <p><?php echo get_theme_option('intro'); ?></p>
             <p><a href="<?php echo get_theme_option('intro_button_slug'); ?>" class="button"><?php echo get_theme_option('intro_button'); ?></a></p>
         </div>
-        
+
+        <?php if ((get_theme_option('index_background_image') === null)): ?>
+        <?php $defaultBgImage = img('rome.jpg'); ?>
+        <?php else: ?>
+        <?php $defaultBgImage = default_index_bg();?>
+        <?php endif ?>
+
         <?php $featuredExhibit = exhibit_builder_random_featured_exhibit(); ?>
         <?php if (!is_null($featuredExhibit)): ?>
         <?php $featuredExhibitId = $featuredExhibit->id; ?>
         <?php $featuredExhibitItem = get_records('Item', array('exhibit' => $featuredExhibitId, 'random' => true, 'has files' => true), 1); ?>
         <?php $featuredExhibitImage = empty($featuredExhibitItem) ? NULL : get_db()->getTable('File')->findWithImages($featuredExhibitItem[0]->id, 0); ?>
 
-        <div id="featured-question" class="featured" style="background-image:url('<?php echo (!is_null($featuredExhibitImage) ? file_display_url($featuredExhibitImage, 'original') : img('rome.jpg')); ?>')">
+        <div id="featured-question" class="featured" style="background-image:url('<?php echo (!is_null($featuredExhibitImage) ? file_display_url($featuredExhibitImage, 'original') : $defaultBgImage); ?>')">
             <h1>
                 <span class="category">Featured Exploration</span>
                 <span class="title"><?php echo $featuredExhibit->title; ?></span>
@@ -23,7 +29,7 @@
             <p class="jump-link"><?php echo exhibit_builder_link_to_exhibit($featuredExhibit, 'Read More', array('class' => 'button')); ?></p>
         </div>
         <?php else: ?>
-            <div id="featured-question" class="featured" style="background-image:url('<?php echo img('rome.jpg'); ?>')">
+            <div id="featured-question" class="featured" style="background-image:url('<?php echo $defaultBgImage; ?>')">
             <h1>
                 <span class="category">Featured Exploration</span>
                 <span class="title">No Featured Exploration Selected</span>
