@@ -26,9 +26,9 @@
             <div id="featured-question" class="featured" style="background-image:url('<?php echo img('rome.jpg'); ?>')">
             <h1>
                 <span class="category">Featured Exploration</span>
-                <span class="title">No featured exploreation</span>
+                <span class="title">No Featured Exploration Selected</span>
             </h1>
-            <p>You can add one in the admin page.</p>
+            <p>Adminstrators can add one in the admin page.</p>
         </div>
         <?php endif; ?>
         
