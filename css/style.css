@@ -149,6 +149,8 @@
 
   div[role="main"] {
     clear: both;
+    width: 100%;
+    float: left;
     background-color: #fff;
     box-shadow: #e7e7e7 0 10px 20px 0px;
     box-shadow: #e7e7e7 0 10px 20px 0px;
@@ -1851,9 +1853,6 @@
 
   /* @end */
   /* @group ----- Global classes ----- */
-  div[role="main"] {
-    width: 100%;
-  }
   div[role="main"] > h1:first-of-type {
     padding: 1.375em 2.85714%;
     text-align: center;
