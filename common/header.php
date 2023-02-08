@@ -23,7 +23,7 @@
 
     <!-- JavaScripts -->
     <?php queue_js_file('vendor/selectivizr', 'javascripts', array('conditional' => '(gte IE 6)&(lte IE 8)')); ?>
-    <?php queue_js_file(array('fastclick', 'mall.modernizr.min', 'vendor/respond', 'jquery.scrollTo.min','jquery.localScroll.min', 'globals', 'events')); ?>
+    <?php queue_js_file(array('fastclick', 'mall.modernizr.min', 'vendor/respond', 'jquery.scrollTo.min', 'globals', 'events')); ?>
     <?php queue_js_string("
           window.addEventListener('load', function() {
               FastClick.attach(document.body);
