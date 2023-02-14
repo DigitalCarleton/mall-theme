@@ -92,7 +92,7 @@
     color: #3d5a80;
   }
   a:visited {
-    color: #8cbcd8;
+    color: #426393;
   }
   a:active,
   a:hover {
@@ -205,7 +205,7 @@
   #site-title a {
     padding: 0.5625em 0;
     display: block;
-    color: #edc86a;
+    color: #DAA41B;
   }
   #site-title img {
     height: 2.25em;
@@ -276,7 +276,7 @@
     padding: 0.375em 1.40845%;
     font-size: 16px;
     width: 35%;
-    background-color: #edc86a;
+    background-color: #DAA41B;
     color: #fff;
     border: 0;
   }
@@ -700,10 +700,7 @@
   #navigation {
     clear: both;
     background-color: #fff;
-    border-top-width: 0.0625em;
-    border-top-style: solid;
     padding-top: -0.0625em;
-    border-color: #e7e7e7;
     display: none;
   }
   #navigation h2 {
@@ -730,6 +727,15 @@
     display: block;
     width: 100%;
     height: 100%;
+  }
+
+  .navigation .active {
+    background-color: #8cbcd8;
+    border: none;
+  }
+
+  .navigation .active a {
+    color: white;
   }
 
   .home #navigation {
