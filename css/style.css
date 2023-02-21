@@ -194,7 +194,6 @@
 
   #site-title {
     float: left;
-    text-transform: uppercase;
     padding: 0 2.85714%;
     margin: 0;
     font-size: 1.125em;
@@ -202,10 +201,14 @@
     color: #edc86a;
     width: 70%;
   }
+  
   #site-title a {
     padding: 0.5625em 0;
     display: block;
     color: #DAA41B;
+    font-variant: small-caps;
+    font-size: 1.3em;
+    font-weight: 600;
   }
   #site-title img {
     height: 2.25em;
