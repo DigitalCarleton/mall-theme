@@ -612,9 +612,11 @@
     text-transform: uppercase;
     font-size: 0.625em;
     line-height: 2.4em;
+    text-shadow: 1px 1px 2px black;
   }
   #featured-question .title {
     line-height: 1.125em;
+    text-shadow: 1px 1px 2px black;
   }
 
   #featured-person {
@@ -758,6 +760,7 @@
     text-align: center;
     line-height: 4.5em;
     padding: 0.75em 2.85714%;
+    text-shadow: 1px 1px 2px black;
   }
   .home #navigation h1 {
     padding: 0.75em 1.40845%;
