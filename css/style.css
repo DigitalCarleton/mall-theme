@@ -959,6 +959,9 @@
     font-size: 24px;
     line-height: 36px;
   }
+  .explorations .question .with_shadow a{
+    text-shadow: 1px 1px 2px black;
+  }
   .explorations .question:nth-of-type(2n + 1):after {
     /* Black */
     background-image: -webkit-linear-gradient(
