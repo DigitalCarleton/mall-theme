@@ -163,6 +163,7 @@
     margin: 0;
     font-size: 24px;
     line-height: 36px;
+    text-shadow: 0.5px 0.5px 2px black;
   }
   div[role="main"] + nav,
   div[role="main"] h1 + nav {
@@ -612,11 +613,11 @@
     text-transform: uppercase;
     font-size: 0.625em;
     line-height: 2.4em;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 0.5px 0.5px 2px black;
   }
   #featured-question .title {
     line-height: 1.125em;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 0.5px 0.5px 2px black;
   }
 
   #featured-person {
@@ -760,7 +761,7 @@
     text-align: center;
     line-height: 4.5em;
     padding: 0.75em 2.85714%;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 0.5px 0.5px 2px black;
   }
   .home #navigation h1 {
     padding: 0.75em 1.40845%;
@@ -960,7 +961,7 @@
     line-height: 36px;
   }
   .explorations .question .with_shadow a{
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 0.5px 0.5px 2px black;
   }
   .explorations .question:nth-of-type(2n + 1):after {
     /* Black */
@@ -1068,6 +1069,7 @@
     position: relative;
     z-index: 10;
     color: #fff;
+    text-shadow: 0.5px 0.5px 2px black;
   }
 
   .exploration-answer div[role="main"] {
