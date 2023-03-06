@@ -1,7 +1,8 @@
 (function($) {
-
     $(document).ready( function() {
         if ($('body').hasClass('event')) {
+            var $root = $('html, body');
+
             var $period = $('#period-nav');
             var periodTop = $('div.items').position().top;
             
@@ -27,14 +28,13 @@
                     }
                 }
             }
-            
-            /* localScroll.js settings */
-            
-            $.localScroll.defaults.axis = 'y';
-            
-            $('#period-nav').localScroll({
-                duration: 1000,
-                offset: -48
+
+            $('a[href^="#"]').click(function () {
+                $root.animate({
+                    scrollTop: $( $.attr(this, 'href') ).offset().top -50
+                }, 1000);
+
+                return false;
             });
             
             $('html').click(function () {

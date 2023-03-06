@@ -45,7 +45,7 @@ $periodItems = array();
     
         <div class="period">
             
-            <a name="<?php echo $period; ?>"></a><h2><?php echo $period; ?></h2>
+            <a id="<?php echo $period; ?>"></a><h2><?php echo $period; ?></h2>
             
             <?php foreach($periodItems as $periodItem): ?>
             <?php set_current_record('item', $periodItem); ?>
