@@ -92,11 +92,11 @@
     color: #3d5a80;
   }
   a:visited {
-    color: #8cbcd8;
+    color: #426393;
   }
   a:active,
   a:hover {
-    color: #edc86a;
+    color: #DAA41B;
   }
 
   a.button {
@@ -163,6 +163,7 @@
     margin: 0;
     font-size: 24px;
     line-height: 36px;
+    text-shadow: 0.5px 0.5px 2px black;
   }
   div[role="main"] + nav,
   div[role="main"] h1 + nav {
@@ -194,7 +195,6 @@
 
   #site-title {
     float: left;
-    text-transform: uppercase;
     padding: 0 2.85714%;
     margin: 0;
     font-size: 1.125em;
@@ -202,10 +202,14 @@
     color: #edc86a;
     width: 70%;
   }
+  
   #site-title a {
     padding: 0.5625em 0;
     display: block;
-    color: #edc86a;
+    color: #DAA41B;
+    font-variant: small-caps;
+    font-size: 1.3em;
+    font-weight: 600;
   }
   #site-title img {
     height: 2.25em;
@@ -276,7 +280,7 @@
     padding: 0.375em 1.40845%;
     font-size: 16px;
     width: 35%;
-    background-color: #edc86a;
+    background-color: #DAA41B;
     color: #fff;
     border: 0;
   }
@@ -609,9 +613,11 @@
     text-transform: uppercase;
     font-size: 0.625em;
     line-height: 2.4em;
+    text-shadow: 0.5px 0.5px 2px black;
   }
   #featured-question .title {
     line-height: 1.125em;
+    text-shadow: 0.5px 0.5px 2px black;
   }
 
   #featured-person {
@@ -700,10 +706,7 @@
   #navigation {
     clear: both;
     background-color: #fff;
-    border-top-width: 0.0625em;
-    border-top-style: solid;
     padding-top: -0.0625em;
-    border-color: #e7e7e7;
     display: none;
   }
   #navigation h2 {
@@ -732,6 +735,15 @@
     height: 100%;
   }
 
+  .navigation .active {
+    background-color: #8cbcd8;
+    border: none;
+  }
+
+  .navigation .active a {
+    color: white;
+  }
+
   .home #navigation {
     background-color: #fff;
     width: 100%;
@@ -749,6 +761,7 @@
     text-align: center;
     line-height: 4.5em;
     padding: 0.75em 2.85714%;
+    text-shadow: 0.5px 0.5px 2px black;
   }
   .home #navigation h1 {
     padding: 0.75em 1.40845%;
@@ -947,6 +960,9 @@
     font-size: 24px;
     line-height: 36px;
   }
+  .explorations .question .with_shadow a{
+    text-shadow: 0.5px 0.5px 2px black;
+  }
   .explorations .question:nth-of-type(2n + 1):after {
     /* Black */
     background-image: -webkit-linear-gradient(
@@ -1053,6 +1069,7 @@
     position: relative;
     z-index: 10;
     color: #fff;
+    text-shadow: 0.5px 0.5px 2px black;
   }
 
   .exploration-answer div[role="main"] {

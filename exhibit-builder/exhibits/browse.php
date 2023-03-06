@@ -17,7 +17,7 @@ echo head(array('title' => $title, 'bodyclass' => 'explorations browse'));
     <?php $exhibitCount++; ?>
     <div class="question color-<?php echo rand(1,5); ?>" <?php echo mall_exhibit_background($exhibit); ?>>
         <?php $exhibitPages = get_records('ExhibitPage', array('exhibit' => $exhibit->id)); ?>
-        <p><?php echo link_to_exhibit(); ?></p>
+          <p class="with_shadow"><?php echo link_to_exhibit();?></p>
     </div>
 <?php endforeach; ?>
 </div>
