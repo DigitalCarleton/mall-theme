@@ -308,10 +308,10 @@
     width: auto;
     margin: 1.5em 2.85714% 0 0;
   }
-  footer a {
+  footer div.logos {
     opacity: 0.5;
   }
-  footer a:hover {
+  footer div.logos:hover {
     opacity: 1;
   }
 
