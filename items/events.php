@@ -13,7 +13,10 @@ $periodItems = array();
 
 <div role="main">
 
-    <h1><?php echo $title;?> <?php echo __('(%s total)', $total_results); ?></h1>
+    <!-- Commenting out the count, since we want to display all items with coverage, not just event types
+         NB: at least 1 item must have item type Event for this page to load  -->
+    <!-- <h1><?php echo $title;?> <?php echo __('(%s total)', $total_results); ?></h1> -->
+    <h1>Medieval Rome by the Century</h1>
     
     <div class="items">
     
@@ -27,7 +30,7 @@ $periodItems = array();
                 <?php 
                 /* Create an array of periods that store their respective items */
                 $periods[$coverageText] = get_records('Item', array(
-                    'item_type' => 'Event',
+                    // 'item_type' => 'Event',
                     'advanced' => array(array(
                         'element_id' => $coverageId,
                         'type'  => 'is exactly',
