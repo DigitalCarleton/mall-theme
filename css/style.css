@@ -87,6 +87,7 @@
 
   a {
     text-decoration: none;
+    font-weight: bold;
   }
   a:link {
     color: #3d5a80;
@@ -164,6 +165,7 @@
     font-size: 24px;
     line-height: 36px;
     text-shadow: 0.5px 0.5px 2px black;
+    font-weight: bold;
   }
   div[role="main"] + nav,
   div[role="main"] h1 + nav {
@@ -743,6 +745,7 @@
 
   .navigation .active a {
     color: white;
+    text-shadow: 0.5px 0.5px 2px black;
   }
 
   .home #navigation {
@@ -2311,7 +2314,6 @@
     text-align: center;
     padding: 10px;
     font-size: 24px;
-    line-height: 8px;
     padding-top: 1.5em;
   }
   .items.event .items .period:nth-of-type(2n) h2 {

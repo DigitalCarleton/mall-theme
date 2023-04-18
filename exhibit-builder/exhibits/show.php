@@ -15,7 +15,7 @@ echo head(array(
     <aside class="learn-more">
     
         <div class="other-questions">
-            <p class="back"><a href="<?php echo url('exhibits'); ?>">Go back to all questions about the National Mall</a></p>
+            <p class="back"><a href="<?php echo url('exhibits'); ?>">Go back to all explorations of Medieval Rome</a></p>
             
         </div>
         <?php $exhibit = get_current_record('exhibit'); ?>
