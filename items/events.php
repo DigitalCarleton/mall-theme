@@ -45,8 +45,14 @@ $periodItems = array();
     
         <div class="period">
             
-            <a id="<?php echo $period; ?>"></a><h2><?php echo $period; ?></h2>
-            
+            <a id="<?php echo $period; ?>"></a>
+
+            <?php if ($period == "Not Applicable"): ?>
+                <h2 style="line-height: 35px"><?php echo $period; ?></h2>
+            <?php else: ?>
+                <h2><?php echo $period; ?></h2>
+            <?php endif; ?>
+
             <?php foreach($periodItems as $periodItem): ?>
             <?php set_current_record('item', $periodItem); ?>
                 <div class="event hentry">
@@ -61,12 +67,6 @@ $periodItems = array();
                     <?php if ($description = metadata('item', array('Dublin Core', 'Description'), array('snippet'=>250))): ?>
                     <div class="item-description blurb">
                         <?php echo $description; ?>
-                    </div>
-                    <?php endif; ?>
-                
-                    <?php if (metadata('item', 'has tags')): ?>
-                    <div class="tags"><p><strong><?php echo __('Tags'); ?>:</strong>
-                        <?php echo tag_string('items'); ?></p>
                     </div>
                     <?php endif; ?>
                 
