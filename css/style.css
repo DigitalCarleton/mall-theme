@@ -95,6 +95,9 @@
   a:visited {
     color: #426393;
   }
+  li.current > a{
+    color: #DAA41B;
+  }
   a:active,
   a:hover {
     color: #DAA41B;
@@ -250,6 +253,8 @@
 }
 
 @media screen {
+
+
   #search-form {
     display: none;
     padding: 0.75em 2%;
@@ -2214,6 +2219,27 @@
     margin-top: 0;
     padding-top: 0;
   }
+
+  #exhibit-page-navigation{
+    margin: 2em 0;
+  }
+
+  #exhibit-nav-up{
+    font-weight: 700;
+  }
+
+  .learn-more .items > h4{
+    border-bottom-width: 0.1em !important;
+    border-bottom-style: solid !important;
+    margin-bottom: 0.5rem !important;
+    padding-bottom: 0.8em !important;
+    border-color: #426393 !important;
+  }
+  #exhibit-pages ul{
+    margin-left: 0;
+    padding-left: 0rem;
+  }
+
   .learn-more .items > *:last-of-type,
   .learn-more .items .hTagcloud > ul,
   .learn-more .other-questions > *:last-of-type,
