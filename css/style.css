@@ -2235,9 +2235,15 @@
     padding-bottom: 0.8em !important;
     border-color: #426393 !important;
   }
+
   #exhibit-pages ul{
     margin-left: 0;
     padding-left: 0rem;
+  }
+
+  #exhibit-pages li > ul{
+    margin-left: 1rem;
+    padding-bottom: 0;
   }
 
   .learn-more .items > *:last-of-type,
