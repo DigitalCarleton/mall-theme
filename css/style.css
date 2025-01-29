@@ -70,7 +70,8 @@
   }
 
   body {
-    background: url("../images/bg2.jpg") no-repeat center center fixed;
+    /* Remove ugly yellow background */
+    /* background: url("../images/bg2.jpg") no-repeat center center fixed; */
     background-size: cover;
     background-size: cover;
     background-size: cover;
