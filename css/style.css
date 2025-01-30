@@ -427,16 +427,27 @@
   }
 
   .home #navigation li {
+    /* old shadow box transition */
+    /* transition: box-shadow 0.25s ease;
     transition: box-shadow 0.25s ease;
     transition: box-shadow 0.25s ease;
-    transition: box-shadow 0.25s ease;
-    transition: box-shadow 0.25s ease;
+    transition: box-shadow 0.25s ease; */
+
+    /* new attempted enlarging transition */
+    transition-behavior: normal;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+
   }
 
   .home #navigation li:hover {
+    /* Changing box shadow properties */
+    /* box-shadow: 0 0 100px rgba(255, 255, 255, 0.8) inset;
     box-shadow: 0 0 100px rgba(255, 255, 255, 0.8) inset;
-    box-shadow: 0 0 100px rgba(255, 255, 255, 0.8) inset;
-    box-shadow: 0 0 100px rgba(255, 255, 255, 0.8) inset;
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.8) inset; */
+    box-shadow: 0px 14px 30px -15px rgba(0,0,0,0.75)!important;
   }
 
   .home #navigation li:nth-of-type(4) {
@@ -1864,13 +1875,14 @@
   /* @group ----- Generic HTML elements ----- */
   body {
     *zoom: 1;
-    max-width: 71em;
+    /* Padding surrounding interactive features "border" */
+    /* max-width: 71em;
     _width: 71em;
     padding-left: 1em;
     padding-right: 1em;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 7.5em;
+    padding-bottom: 7.5em; */
   }
   body:after {
     content: "";
