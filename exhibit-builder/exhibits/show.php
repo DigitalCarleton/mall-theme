@@ -28,11 +28,13 @@ echo head(array(
     <div id="exhibit-page-navigation">
         <?php if ($prevLink = exhibit_builder_link_to_previous_page()): ?>
         <div id="exhibit-nav-prev">
+        <h4>Previous page:</h4>
         <?php echo $prevLink; ?>
         </div>
         <?php endif; ?>
         <?php if ($nextLink = exhibit_builder_link_to_next_page()): ?>
         <div id="exhibit-nav-next">
+        <h4>Next page:</h4>
         <?php echo $nextLink; ?>
         </div>
         <?php endif; ?>

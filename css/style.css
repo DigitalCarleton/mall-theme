@@ -1913,9 +1913,10 @@
     margin-top: 3em;
     background-color: #fff;
     z-index: 10;
-    -moz-box-shadow: 0 0 50px rgba(0, 128, 0, 0.18);
-    -webkit-box-shadow: 0 0 50px rgba(0, 128, 0, 0.18);
-    box-shadow: 0 0 50px rgba(0, 128, 0, 0.18);
+    /* get rid of bad green shadow */
+    /* -moz-box-shadow: 0 0 50px rgba(0, 128, 0, 0.18);
+     -webkit-box-shadow: 0 0 50px rgba(0, 128, 0, 0.18);
+    box-shadow: 0 0 50px rgba(0, 128, 0, 0.18); */ 
     border-top: 5px solid #8cbcd8;
   }
 
