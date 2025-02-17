@@ -191,6 +191,7 @@
   }
 
   /* @end */
+
   /* @group ----- Header ----- */
   header {
     float: left;
@@ -221,7 +222,7 @@
     height: 2.25em;
     width: auto;
     vertical-align: bottom;
-    opacity: 0;
+    opacity: 100;
   }
 
   #mobile-nav {
@@ -574,7 +575,7 @@
   }
 
   .home .news-item {
-    *zoom: 1;
+    zoom: 1;
     max-width: 71em;
     _width: 71em;
     padding-left: 1em;
@@ -1930,7 +1931,7 @@
   #site-title img {
     height: 7.5em;
     width: auto;
-    opacity: 0;
+    opacity: 100;
   }
 
   .logo {
@@ -2016,7 +2017,7 @@
   .home #site-title img {
     height: 7.5em;
     width: auto;
-    opacity: 0;
+    opacity: 100;
   }
 
   .home header {
