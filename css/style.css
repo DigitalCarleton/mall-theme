@@ -407,7 +407,7 @@
   .home #site-title img {
     height: 3.75em;
     width: auto;
-    opacity: 0;
+    opacity: 100;
   }
 
   .home #navigation,
