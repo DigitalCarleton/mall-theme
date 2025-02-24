@@ -289,7 +289,7 @@
     padding: 0.375em 1.40845%;
     font-size: 16px;
     width: 35%;
-    background-color: #DAA41B;
+    background-color: #FFC507;
     color: #fff;
     border: 0;
   }
@@ -300,7 +300,7 @@
   }
   #search-form input[type="submit"] {
     width: 35%;
-    background-color: #edc86a;
+    background-color: #FFC507;
     color: #fff;
     border: 0;
   }
