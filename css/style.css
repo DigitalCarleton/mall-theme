@@ -420,6 +420,7 @@
     display: inline-block;
   }
   .home #site-title img {
+    content: url("https://omeka-dev.carleton.edu/cgmrdev/files/theme_uploads/71a9e8c81ead19ce1d03607a238b4c7a.jpg");
     height: 3.75em;
     width: auto;
     opacity: 100;
