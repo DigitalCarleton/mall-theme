@@ -223,9 +223,7 @@
     height: 3em;
     width: fit-content;
     /* Edit with site title logo location */
-    /* vertical-align: bottom; */
-    vertical-align: top;
-    text-align: right;
+    vertical-align: bottom;
     opacity: 100;
   }
 
