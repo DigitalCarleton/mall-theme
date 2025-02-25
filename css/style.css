@@ -207,8 +207,7 @@
     font-size: 1.125em;
     line-height: 1.33333em;
     color: #FFC507;
-    height: 3em;
-    width: fit-content;
+    width: 70%;
   }
   
   #site-title a {
