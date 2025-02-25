@@ -207,7 +207,8 @@
     font-size: 1.125em;
     line-height: 1.33333em;
     color: #FFC507;
-    width: 70%;
+    height: 3em;
+    width: fit-content;
   }
   
   #site-title a {
@@ -219,9 +220,12 @@
     font-weight: 600;
   }
   #site-title img {
-    height: 2.25em;
-    width: auto;
-    vertical-align: bottom;
+    height: 3em;
+    width: fit-content;
+    /* Edit with site title logo location */
+    /* vertical-align: bottom; */
+    vertical-align: top;
+    text-align: right;
     opacity: 100;
   }
 
