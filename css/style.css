@@ -219,9 +219,10 @@
     font-weight: 600;
   }
   #site-title img {
+    float: left;
     height: 2em;
     width: fit-content;
-    background-image: url("../images/CGMR_03.png");
+    content: url("../images/CGMR_03.png");
     vertical-align: bottom;
     opacity: 100;
   }
