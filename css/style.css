@@ -219,9 +219,9 @@
     font-weight: 600;
   }
   #site-title img {
-    height: 3em;
+    height: 2em;
     width: fit-content;
-    /* Edit with site title logo location */
+    background-image: url("../images/CGMR_03.png");
     vertical-align: bottom;
     opacity: 100;
   }
