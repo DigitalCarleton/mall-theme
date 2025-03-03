@@ -305,6 +305,7 @@
     background-color: #FFC507;
     color: #fff;
     border: 0;
+    content: "Search";
   }
 
   .column {
@@ -1982,6 +1983,7 @@
     line-height: 24px;
     float: none;
     display: inline-block;
+    content: "Search";
   }
 
   /* @end */
@@ -2103,6 +2105,7 @@
     background-color: #FFC507;
     color: #f7f7f7;
     border: 0;
+    content: "Search";
   }
 
   /* @end */
