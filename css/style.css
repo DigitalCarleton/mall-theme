@@ -2527,6 +2527,8 @@
   #filters div label {
     width: 48%;
     float: left;
+    height: 40em;
+    position: relative;
   }
   #filters div label:nth-of-type(2n) {
     margin-left: 2%;
