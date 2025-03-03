@@ -37,6 +37,8 @@
 <?php $bodyclass = 'home'; ?>
 <?php endif; ?>
 
+
+<?php if($bodyclass == 'home';): ?>
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
     <header>
@@ -52,7 +54,6 @@
     </header>
 
 <?php else: ?>
-
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
     <header>
@@ -67,3 +68,4 @@
     </div>
             
     </header>
+    <?php endif; ?>
