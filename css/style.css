@@ -311,15 +311,18 @@
   .column {
     float: left;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
   }
   
-  .left, .right {
-    width: 25%;
+  .left{
+    width: 10%;
+  }
+
+  .right {
+    width: 30%;
   }
   
   .middle {
-    width: 50%;
+    width: 60%;
   }
   
   /* Clear floats after the columns */
@@ -1970,7 +1973,7 @@
     align-items: center;
     background-color: transparent;
     margin: 0 1.40845% 0 0;
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
     z-index: 10;
@@ -2129,7 +2132,7 @@
     clear: none;
     display: block !important;
     margin: 0 0 0.75em;
-    position: absolute;
+    position: relative;
     top: 0;
     padding: 0;
     left: 0;
