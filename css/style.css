@@ -315,16 +315,17 @@
   }
   
   .left{
-    width: 10%;
+    width: 20%;
     order: 1;
   }
 
   .right {
+    width: 100%;
     order: 3;
   }
   
   .middle {
-    width: 60%;
+    width: 53%;
     order: 2;
   }
   
@@ -1215,8 +1216,7 @@
 @media screen and (min-width: 60em) {
   .right {
     float: right;
-    width: 35%;
-    margin-right: 5%;
+    width: 80%;
   }
   .right .image {
     float: right;
@@ -1940,7 +1940,7 @@
   /* @end */
   /* @group ----- Header ----- */
   header {
-    padding: 6em 1em 1.5em;
+    /* padding: 6em 1em 1.5em; */
     text-align: center;
     background-color: #fff;
     z-index: 10;
