@@ -60,12 +60,12 @@
     <header>
       
     <div class="row">
-        <div class="column"><h1 id="site-title"><?php echo link_to_home_page(theme_logo(), array('alt' => 'Logo for Carleton Guide to Medieval Rome', 'title' => 'Logo for Carleton Guide to Medieval Rome')); ?></h1>
+        <div class="column left"><h1 id="site-title"><?php echo link_to_home_page(theme_logo(), array('alt' => 'Logo for Carleton Guide to Medieval Rome', 'title' => 'Logo for Carleton Guide to Medieval Rome')); ?></h1>
         </div>
-        <div class="column"><nav id="navigation" data-role="none">
+        <div class="column middle"><nav id="navigation" data-role="none">
             <?php echo public_nav_main(); ?>
         </nav> </div>
-        <div class="column"><?php echo search_form(); ?> </div>
+        <div class="column right"><?php echo search_form(); ?> </div>
     </div>
             
     </header>
