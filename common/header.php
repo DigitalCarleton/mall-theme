@@ -40,19 +40,32 @@
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
     <header>
-        <div class="row">
-            <div class="column">
-                <h1 id="site-title"><?php echo link_to_home_page(theme_logo(), array('alt' => 'Logo for Carleton Guide to Medieval Rome', 'title' => 'Logo for Carleton Guide to Medieval Rome')); ?></h1>
-            </div>
-            <div class="column">
-                <nav id="navigation" data-role="none">
-                    <?php echo public_nav_main(); ?>
-                </nav>
-            </div>
-        </div>
-        
+      
+        <h1 id="site-title"><?php echo link_to_home_page(theme_logo(), array('alt' => 'Logo for Carleton Guide to Medieval Rome', 'title' => 'Logo for Carleton Guide to Medieval Rome')); ?></h1>
             
         <?php echo search_form(); ?>
     
+        
+        <nav id="navigation" data-role="none">
+            <?php echo public_nav_main(); ?>
+        </nav>    
+    </header>
 
+<?php if(@$bodyclass): ?>
+<?php $bodyclass = 'home'; ?>
+<?php endif; ?>
+
+<?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
+    <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
+    <header>
+      
+    <div class="row">
+        <div class="column"><h1 id="site-title"><?php echo link_to_home_page(theme_logo(), array('alt' => 'Logo for Carleton Guide to Medieval Rome', 'title' => 'Logo for Carleton Guide to Medieval Rome')); ?></h1>
+        </div>
+        <div class="column"><nav id="navigation" data-role="none">
+            <?php echo public_nav_main(); ?>
+        </nav> </div>
+        <div class="column"><?php echo search_form(); ?> </div>
+    </div>
+            
     </header>
