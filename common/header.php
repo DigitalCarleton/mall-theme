@@ -51,8 +51,8 @@
         </nav>    
     </header>
 
-<?php if(@$bodyclass): ?>
-<?php $bodyclass = 'home'; ?>
+<?php if(!@$bodyclass): ?>
+<?php $bodyclass != 'home'; ?>
 <?php endif; ?>
 
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
