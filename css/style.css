@@ -211,7 +211,7 @@
   }
   
   #site-title a {
-    padding: 0.5625em 0;
+    /* padding: 0.5625em 0; */
     display: block;
     color: #DAA41B;
     font-variant: small-caps;
@@ -311,18 +311,21 @@
   .column {
     float: left;
     padding: 10px;
+    align-items: flex-start;
   }
   
   .left{
     width: 10%;
+    order: 1;
   }
 
   .right {
-    width: 30%;
+    order: 3;
   }
   
   .middle {
     width: 60%;
+    order: 2;
   }
   
   /* Clear floats after the columns */
@@ -1956,7 +1959,7 @@
     width: 100%;
   }
   #site-title img {
-    height: 7.5em;
+    height: 5.5em;
     width: auto;
     opacity: 100;
   }
