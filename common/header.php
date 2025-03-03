@@ -38,7 +38,8 @@
 <?php endif; ?>
 
 
-<?php if($bodyclass == 'home';): ?>
+<?php if($bodyclass == 'home'): ?>
+
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
     <header>
