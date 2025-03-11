@@ -232,6 +232,9 @@
     text-align: right;
     display: flex;
     line-height: 4.21875em;
+    position: absolute;
+    right: 16px;
+    top: 8px;
   }
   #mobile-nav a {
     display: inline-block;
