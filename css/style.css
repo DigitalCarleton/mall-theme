@@ -234,7 +234,7 @@
     line-height: 4.21875em;
   }
   #mobile-nav a {
-    display: flex;
+    display: inline-block;
     font-size: 24px;
     background-color: #FFC507;
     color: #fff;
@@ -242,8 +242,11 @@
     border-radius: 40px;
     border-radius: 40px;
     border-radius: 40px;
-    /* margin-right: 2.85714%; */
+    margin-right: 2.85714%;
     line-height: 1.6875em;
+    position: absolute;
+    top: 8px;
+    right: 16px;
   }
   #mobile-nav a:last-of-type {
     margin-bottom: 0;
