@@ -250,6 +250,7 @@
   }
   #mobile-nav a:last-of-type {
     margin-bottom: 0;
+    top: 60px;
   }
 }
 @media screen and (min-width: 60em) {
@@ -271,6 +272,10 @@
     float: left;
     width: 100%;
     background-color: #fff;
+    width: 50%;
+    position: relative;
+    top: 0px;
+    left: 60px;
   }
 
   #search-form input[type="text"],
@@ -768,6 +773,8 @@
     background-color: #fff;
     padding-top: -0.0625em;
     display: none;
+    position: relative;
+    left: 100px;
   }
   #navigation h2 {
     font-size: 1em;
@@ -1221,6 +1228,7 @@
   .right {
     float: right;
     width: 20%;
+    padding-left: 5px;
   }
   .right .image {
     float: right;
