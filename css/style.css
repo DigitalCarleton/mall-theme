@@ -230,20 +230,19 @@
   #mobile-nav {
     height: 3.75em;
     text-align: right;
-    display: block;
+    display: flex;
     line-height: 4.21875em;
   }
   #mobile-nav a {
-    display: inline-block;
+    display: flex;
     font-size: 24px;
     background-color: #FFC507;
     color: #fff;
     height: 1.5em;
-    padding: 0 6px;
     border-radius: 40px;
     border-radius: 40px;
     border-radius: 40px;
-    margin-right: 2.85714%;
+    /* margin-right: 2.85714%; */
     line-height: 1.6875em;
   }
   #mobile-nav a:last-of-type {
@@ -1218,7 +1217,7 @@
 @media screen and (min-width: 60em) {
   .right {
     float: right;
-    width: 80%;
+    width: 20%;
   }
   .right .image {
     float: right;
