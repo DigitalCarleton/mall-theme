@@ -319,17 +319,17 @@
   }
 
   .right {
-    width: 100%;
+    width: 20%;
     order: 3;
     display: inline-flex;
   }
   
   .middle {
-    width: 70%;
     order: 2;
   }
   .row {
     display: inline-flex;
+    width: 100%;
   }
   /* Clear floats after the columns */
   .row:after {
@@ -1212,7 +1212,7 @@
 
   .right {
     width: 100%;
-    display: block;
+    display: inline-flex;
   }
 }
 @media screen and (min-width: 60em) {
@@ -1972,7 +1972,6 @@
 
   #search-form {
     padding: 0;
-    width: 30%;
     float: right;
     display: flex !important;
     align-items: center;
