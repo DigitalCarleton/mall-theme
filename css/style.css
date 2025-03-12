@@ -234,7 +234,7 @@
     line-height: 4.21875em;
     position: absolute;
     right: 16px;
-    top: 8px;
+    top: 60px;
   }
   #mobile-nav a {
     display: inline-block;
@@ -266,7 +266,7 @@
 
 
   #search-form {
-    display: none;
+    display: block;
     padding: 0.75em 2%;
     border-color: #e7e7e7;
     border-top-width: 0.0625em;
@@ -275,10 +275,7 @@
     float: left;
     width: 100%;
     background-color: #fff;
-    width: 50%;
     position: relative;
-    top: 0px;
-    left: 60px;
   }
 
   #search-form input[type="text"],
@@ -775,7 +772,7 @@
     clear: both;
     background-color: #fff;
     padding-top: -0.0625em;
-    display: none;
+    display: block;
     position: relative;
     /* left: 100px; */
   }
