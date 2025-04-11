@@ -1980,7 +1980,7 @@
   }
 
   #search-form {
-    padding: 0;
+    padding: 0 3.2%;
     float: unset;
     display: flex !important;
     align-items: center;
