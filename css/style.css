@@ -2171,6 +2171,7 @@
 
   .home #navigation {
     position: relative;
+    padding: 0 0;
   }
   .home #navigation ul {
     border-bottom-width: 0em;
