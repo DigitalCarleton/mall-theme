@@ -320,12 +320,12 @@
   }
   
   .left{
-    width: 20%;
+    width: 30%;
     order: 1;
   }
 
   .right {
-    width: 20%;
+    /* width: 20%; */
     order: 3;
     display: inline-flex;
   }
