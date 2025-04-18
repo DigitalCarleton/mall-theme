@@ -222,7 +222,7 @@
   #site-title img {
     float: left;
     height: 2em;
-    width: fit-content;
+    /* width: fit-content; */
     content: url("../images/CGMR_03.png");
     vertical-align: bottom;
     opacity: 100;
