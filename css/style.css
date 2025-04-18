@@ -25,8 +25,9 @@
 /* @group ----- Colors ----- */
 /* @end */
 @media screen {
-  @import url(normalize.css);
-  /* ---- Typography ---- */
+  /* @import url(normalize.css); */
+  /* ---- Typography ---- */ 
+
   @font-face {
     font-family: "icomoon";
     src: url("../fonts/icomoon.eot");
@@ -445,7 +446,7 @@
     display: inline-block;
   }
   .home #site-title img {
-    content: url("https://omeka-dev.carleton.edu/cgmrdev/files/theme_uploads/71a9e8c81ead19ce1d03607a238b4c7a.jpg");
+    content: url("https://omeka-dev.carleton.edu/cgmrdev/files/theme_uploads/a6934c54e4a2e21d6daa205f2f136020.jpg");
     height: 3.75em;
     width: auto;
     opacity: 100;
