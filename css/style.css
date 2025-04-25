@@ -139,9 +139,9 @@
   /* @end */
   /* @group ----- Global classes ----- */
   .screen-reader-text {
-    position: auto !important;
-    /* top: -9999px !important;
-    left: -9999px !important; */
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
   }
 
   a.button {
