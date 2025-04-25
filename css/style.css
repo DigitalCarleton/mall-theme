@@ -2532,7 +2532,7 @@
   }
 
   .map #map {
-    min-height: 60em;
+    min-height: 30em;
   }
 
   #filters {
