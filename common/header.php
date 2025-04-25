@@ -67,10 +67,7 @@
         </nav> <?php echo search_form(); ?> </div> -->
         <!-- <div class="column right"><?php echo search_form(); ?> </div> -->
     </div>
-        <nav id="navigation" data-role="none">
-            <?php echo public_nav_main(); ?>
-        </nav> 
-        <?php echo search_form(); ?>
+        
             
     </header>
     <?php endif; ?>
