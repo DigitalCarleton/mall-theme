@@ -430,7 +430,9 @@
   }
 
   #intro .button {
-    background-color: #8cbcd8;
+    /* background-color: #8cbcd8; */
+    background-color: main-accent;
+    /* background-color: main-b; */
     display: inline-block;
   }
 
