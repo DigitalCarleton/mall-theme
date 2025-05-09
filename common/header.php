@@ -61,10 +61,10 @@
     <div class="row">
         <div class="column left"><h1 id="site-title"><?php echo link_to_home_page(theme_logo(), array('alt' => 'Logo for Carleton Guide to Medieval Rome', 'title' => 'Logo for Carleton Guide to Medieval Rome')); ?></h1>
         </div>
-        <!-- <div class="column middle"><nav id="navigation" data-role="none">
-            <?php echo public_nav_main(); ?>
-        </nav> <?php echo search_form(array( 'submit_value' => 'Search')); ?> </div> -->
-        <!-- <div class="column right"><?php echo search_form(array( 'submit_value' => 'Search')); ?> </div> -->
+        
+        <?php echo public_nav_main(); ?>
+        <?php echo search_form(array( 'submit_value' => 'Search')); ?> 
+        <?php echo search_form(array( 'submit_value' => 'Search')); ?> 
     </div>
 
     <nav id="navigation" data-role="none">
