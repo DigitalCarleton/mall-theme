@@ -72,7 +72,7 @@
             <?php echo public_nav_main(); ?>
         </nav>
         
-    <?php echo search_form(echo "Search"); ?>
+    <?php echo search_form('Search'); ?>
             
     </header>
     <?php endif; ?>
