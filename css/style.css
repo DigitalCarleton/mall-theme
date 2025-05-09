@@ -1975,7 +1975,7 @@
     width: 100%;
   }
   #site-title img {
-    height: 5.5em;
+    height: 3.5em;
     width: auto;
     opacity: 100;
   }
@@ -2153,7 +2153,7 @@
     position: relative;
     top: -5.4em;
     padding: 0 3.2%;
-    left: 15em;
+    left: 8.5em;
   }
   #navigation a {
     border-right: 1px solid #f7f7f7;
@@ -2163,7 +2163,7 @@
   #navigation ul {
     padding: 0;
     width: 100%;
-    margin: 0;
+    margin: -2em 0 0 0;
     overflow: auto;
     border-bottom: 1px solid #f7f7f7;
   }
@@ -2172,6 +2172,7 @@
     border-bottom: 0;
     padding: 0;
     float: left;
+    width: 24%;
   }
 
   .home #navigation {
