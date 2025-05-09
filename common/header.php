@@ -58,7 +58,6 @@
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
     <header>
-      
     <div class="row">
         <div class="column left"><h1 id="site-title"><?php echo link_to_home_page(theme_logo(), array('alt' => 'Logo for Carleton Guide to Medieval Rome', 'title' => 'Logo for Carleton Guide to Medieval Rome')); ?></h1>
         </div>
@@ -72,7 +71,7 @@
             <?php echo public_nav_main(); ?>
         </nav>
         
-    <?php echo search_form('Search'); ?>
+    <?php echo search_form(array( 'submit_value' => 'Search')); ?>
             
     </header>
     <?php endif; ?>
