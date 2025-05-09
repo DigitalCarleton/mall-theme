@@ -64,15 +64,15 @@
         </div>
         <!-- <div class="column middle"><nav id="navigation" data-role="none">
             <?php echo public_nav_main(); ?>
-        </nav> <?php echo search_form(); ?> </div> -->
-        <!-- <div class="column right"><?php echo search_form(); ?> </div> -->
+        </nav> <?php echo search_form("Search"); ?> </div> -->
+        <!-- <div class="column right"><?php echo search_form("Search"); ?> </div> -->
     </div>
 
     <nav id="navigation" data-role="none">
             <?php echo public_nav_main(); ?>
         </nav>
         
-    <?php echo search_form(); ?>
+    <?php echo search_form("Search"); ?>
             
     </header>
     <?php endif; ?>
