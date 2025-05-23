@@ -806,6 +806,7 @@
     display: block;
     width: 100%;
     height: 100%;
+    text-align: center;
   }
 
   .navigation .active {
@@ -2176,7 +2177,7 @@
     border-bottom: 0;
     padding: 0;
     float: left;
-    width: 24%;
+    width: 23%;
   }
 
   .home #navigation {
